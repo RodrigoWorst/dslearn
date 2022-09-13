@@ -21,3 +21,8 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES('2.0'
 INSERT INTO tb_resource(title, description, position, img_Url, type, offer_id) VALUES ('Trilha Spring', 'Trilha principal do curso', 1, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 1, 1);
 INSERT INTO tb_resource(title, description, position, img_Url, type, offer_id) VALUES ('Forum', 'tire suas dúvidas', 2, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 2, 1);
 INSERT INTO tb_resource(title, description, position, img_Url, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 0, 1);
+
+
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Iniciando a jornada', 1, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 1, null);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Continuando a jornada', 2, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 1, 1);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Finalizando a jornada', 3, 'https://www.smartpassiveincome.com/wp-content/uploads/2020/04/How-to-Create-an-Online-Course.png', 1, 2);
